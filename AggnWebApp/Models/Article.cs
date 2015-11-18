@@ -16,7 +16,5 @@ namespace AggnWebApp.Models
 
         //Will need to add bits to containerize media, maybe reference, text position, etc?
 
-        //Testing out GitHub weird
-
     }
 }
