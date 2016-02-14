@@ -10,107 +10,107 @@ using AggnWebApp.Models;
 
 namespace AggnWebApp.Controllers
 {
-    public class ArticlesController : Controller
+    public class PublicationsController : Controller
     {
         private AggnWebAppContext db = new AggnWebAppContext();
 
-        // GET: Articles
+        // GET: Publications
         public ActionResult Index()
         {
-            return View(db.Articles.ToList());
+            return View(db.Publications.ToList());
         }
 
-        // GET: Articles/Details/5
+        // GET: Publications/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Article article = db.Articles.Find(id);
-            if (article == null)
+            Publication publication = db.Publications.Find(id);
+            if (publication == null)
             {
                 return HttpNotFound();
             }
-            return View(article);
+            return View(publication);
         }
 
-        // GET: Articles/Create
+        // GET: Publications/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Articles/Create
+        // POST: Publications/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ArticleID,Name,Body,Published,Public,UserID")] Article article)
+        public ActionResult Create([Bind(Include = "PublicationID,Name")] Publication publication)
         {
             if (ModelState.IsValid)
             {
-                db.Articles.Add(article);
+                db.Publications.Add(publication);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(article);
+            return View(publication);
         }
 
-        // GET: Articles/Edit/5
+        // GET: Publications/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Article article = db.Articles.Find(id);
-            if (article == null)
+            Publication publication = db.Publications.Find(id);
+            if (publication == null)
             {
                 return HttpNotFound();
             }
-            return View(article);
+            return View(publication);
         }
 
-        // POST: Articles/Edit/5
+        // POST: Publications/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ArticleID,Name,Body,Published,Public,UserID")] Article article)
+        public ActionResult Edit([Bind(Include = "PublicationID,Name")] Publication publication)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(article).State = EntityState.Modified;
+                db.Entry(publication).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(article);
+            return View(publication);
         }
 
-        // GET: Articles/Delete/5
+        // GET: Publications/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Article article = db.Articles.Find(id);
-            if (article == null)
+            Publication publication = db.Publications.Find(id);
+            if (publication == null)
             {
                 return HttpNotFound();
             }
-            return View(article);
+            return View(publication);
         }
 
-        // POST: Articles/Delete/5
+        // POST: Publications/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Article article = db.Articles.Find(id);
-            db.Articles.Remove(article);
+            Publication publication = db.Publications.Find(id);
+            db.Publications.Remove(publication);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

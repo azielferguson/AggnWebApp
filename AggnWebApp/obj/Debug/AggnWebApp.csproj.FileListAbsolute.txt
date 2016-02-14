@@ -53,5 +53,7 @@ C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\An
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Newtonsoft.Json.xml
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.dll
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.pdb
-C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.Migrations.InitialCreate.resources
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.Migrations.ArticlesCategoriesMig.resources
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.csproj.GenerateResource.Cache
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.Migrations.UserMig.resources
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.Migrations.NextMig.resources

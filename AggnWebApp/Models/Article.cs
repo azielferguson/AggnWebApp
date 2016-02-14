@@ -18,6 +18,6 @@ namespace AggnWebApp.Models
 
         public bool Public { get; set; }
 
-        public int AuthorUserID { get; set; }
+        public int UserID { get; set; }
     }
 }

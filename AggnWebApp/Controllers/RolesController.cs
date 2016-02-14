@@ -10,107 +10,107 @@ using AggnWebApp.Models;
 
 namespace AggnWebApp.Controllers
 {
-    public class ArticlesController : Controller
+    public class RolesController : Controller
     {
         private AggnWebAppContext db = new AggnWebAppContext();
 
-        // GET: Articles
+        // GET: Roles
         public ActionResult Index()
         {
-            return View(db.Articles.ToList());
+            return View(db.Roles.ToList());
         }
 
-        // GET: Articles/Details/5
-        public ActionResult Details(int? id)
+        // GET: Roles/Details/5
+        public ActionResult Details(string id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Article article = db.Articles.Find(id);
-            if (article == null)
+            Role role = db.Roles.Find(id);
+            if (role == null)
             {
                 return HttpNotFound();
             }
-            return View(article);
+            return View(role);
         }
 
-        // GET: Articles/Create
+        // GET: Roles/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Articles/Create
+        // POST: Roles/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ArticleID,Name,Body,Published,Public,UserID")] Article article)
+        public ActionResult Create([Bind(Include = "RoleID,Name")] Role role)
         {
             if (ModelState.IsValid)
             {
-                db.Articles.Add(article);
+                db.Roles.Add(role);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(article);
+            return View(role);
         }
 
-        // GET: Articles/Edit/5
-        public ActionResult Edit(int? id)
+        // GET: Roles/Edit/5
+        public ActionResult Edit(string id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Article article = db.Articles.Find(id);
-            if (article == null)
+            Role role = db.Roles.Find(id);
+            if (role == null)
             {
                 return HttpNotFound();
             }
-            return View(article);
+            return View(role);
         }
 
-        // POST: Articles/Edit/5
+        // POST: Roles/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ArticleID,Name,Body,Published,Public,UserID")] Article article)
+        public ActionResult Edit([Bind(Include = "RoleID,Name")] Role role)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(article).State = EntityState.Modified;
+                db.Entry(role).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(article);
+            return View(role);
         }
 
-        // GET: Articles/Delete/5
-        public ActionResult Delete(int? id)
+        // GET: Roles/Delete/5
+        public ActionResult Delete(string id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Article article = db.Articles.Find(id);
-            if (article == null)
+            Role role = db.Roles.Find(id);
+            if (role == null)
             {
                 return HttpNotFound();
             }
-            return View(article);
+            return View(role);
         }
 
-        // POST: Articles/Delete/5
+        // POST: Roles/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public ActionResult DeleteConfirmed(string id)
         {
-            Article article = db.Articles.Find(id);
-            db.Articles.Remove(article);
+            Role role = db.Roles.Find(id);
+            db.Roles.Remove(role);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

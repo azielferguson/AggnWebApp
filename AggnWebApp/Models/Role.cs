@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AggnWebApp.Models
 {
-    public class Publication
+    public class Role
     {
-        public int PublicationID { get; set; }
+        public string RoleID { get; set; }
 
         public string Name { get; set; }
 

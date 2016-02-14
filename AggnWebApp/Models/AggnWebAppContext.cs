@@ -20,5 +20,13 @@ namespace AggnWebApp.Models
         }
 
         public System.Data.Entity.DbSet<AggnWebApp.Models.Article> Articles { get; set; }
+
+        public System.Data.Entity.DbSet<AggnWebApp.Models.Category> Categories { get; set; }
+
+        public System.Data.Entity.DbSet<AggnWebApp.Models.User> Users { get; set; }
+
+        public System.Data.Entity.DbSet<AggnWebApp.Models.Publication> Publications { get; set; }
+
+        public System.Data.Entity.DbSet<AggnWebApp.Models.Role> Roles { get; set; }
     }
 }
