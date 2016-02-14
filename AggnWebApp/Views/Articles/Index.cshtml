@@ -1,0 +1,57 @@
+﻿@model IEnumerable<AggnWebApp.Models.Article>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Body)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Published)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Public)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AuthorUserID)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Body)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Published)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Public)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AuthorUserID)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ArticleID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ArticleID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ArticleID })
+        </td>
+    </tr>
+}
+
+</table>

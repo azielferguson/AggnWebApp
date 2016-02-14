@@ -38,3 +38,5 @@ C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp.Tests\
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp.Tests\obj\Debug\AggnWebApp.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp.Tests\obj\Debug\AggnWebApp.Tests.dll
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp.Tests\obj\Debug\AggnWebApp.Tests.pdb
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp.Tests\bin\Debug\EntityFramework.xml

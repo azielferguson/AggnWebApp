@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="animegeekgamingnation" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^c:\\users\\kaos\\documents\\visual\ studio\ 2015\\Projects\\AggnWebApp\\AggnWebApp\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^c:\\users\\kaos\\documents\\visual\ studio\ 2015\\Projects\\AggnWebApp\\AggnWebApp\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Kaos\\Documents\\Visual\ Studio\ 2015\\Projects\\AggnWebApp\\AggnWebApp\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Kaos\\Documents\\Visual\ Studio\ 2015\\Projects\\AggnWebApp\\AggnWebApp\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="AggnWebAppContext-Web.config Connection String" description="" value="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=AggnWebAppContext-20151118223429; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|AggnWebAppContext-20151118223429.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Kaos\\Documents\\Visual\ Studio\ 2015\\Projects\\AggnWebApp\\AggnWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AggnWebAppContext']/@connectionString" />
   </parameter>
 </parameters>

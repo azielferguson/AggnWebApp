@@ -16,6 +16,8 @@ C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Ag
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\AggnWebApp.dll
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\AggnWebApp.pdb
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Antlr3.Runtime.dll
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\EntityFramework.dll
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\EntityFramework.SqlServer.dll
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Microsoft.ApplicationInsights.dll
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Microsoft.ApplicationInsights.Extensibility.DependencyCollector.dll
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.dll
@@ -33,6 +35,8 @@ C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Sy
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\System.Web.WebPages.dll
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\System.Web.WebPages.Razor.dll
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\WebGrease.dll
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\EntityFramework.xml
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\EntityFramework.SqlServer.xml
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Microsoft.ApplicationInsights.Extensibility.DependencyCollector.xml
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Microsoft.ApplicationInsights.Extensibility.Web.xml
@@ -47,6 +51,7 @@ C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Sy
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\System.Web.WebPages.Razor.xml
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Antlr3.Runtime.pdb
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Newtonsoft.Json.xml
-C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.csprojResolveAssemblyReference.cache
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.dll
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.pdb
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.Migrations.InitialCreate.resources
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.csproj.GenerateResource.Cache

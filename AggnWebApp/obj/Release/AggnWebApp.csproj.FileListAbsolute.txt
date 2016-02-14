@@ -50,3 +50,7 @@ c:\users\kaos\documents\visual studio 2015\Projects\AggnWebApp\AggnWebApp\bin\Ne
 c:\users\kaos\documents\visual studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Release\AggnWebApp.csprojResolveAssemblyReference.cache
 c:\users\kaos\documents\visual studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Release\AggnWebApp.dll
 c:\users\kaos\documents\visual studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Release\AggnWebApp.pdb
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\EntityFramework.dll
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\EntityFramework.xml
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\bin\EntityFramework.SqlServer.xml

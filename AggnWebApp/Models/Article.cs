@@ -12,9 +12,12 @@ namespace AggnWebApp.Models
 
         public string Name { get; set; }
 
-        public string Text { get; set; }
+        public string Body { get; set; }
+        
+        public bool Published { get; set; }
 
-        //Will need to add bits to containerize media, maybe reference, text position, etc?
+        public bool Public { get; set; }
 
+        public int AuthorUserID { get; set; }
     }
 }
