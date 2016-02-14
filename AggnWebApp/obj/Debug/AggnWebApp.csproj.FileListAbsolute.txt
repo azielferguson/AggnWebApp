@@ -57,3 +57,4 @@ C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\De
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.csproj.GenerateResource.Cache
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.Migrations.UserMig.resources
 C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.Migrations.NextMig.resources
+C:\Users\Kaos\Documents\Visual Studio 2015\Projects\AggnWebApp\AggnWebApp\obj\Debug\AggnWebApp.csprojResolveAssemblyReference.cache
